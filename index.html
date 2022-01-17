@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+
+    <title>Calculadora online</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <section class="calculadora">
+
+            <header class="tela">
+                <input type="text" class="display1" id="display1" value="" >
+                <input type="text" class="display2" placeholder="0">
+            </header>
+
+            <section class="teclado"> 
+                <table>        
+                    <tr>
+                        <td ><button class="btn" value="c" id="operador"> C </button></td>
+                        <td ><button class="btn" value="/" id="operador"> / </button></td>
+                        <td ><button class="btn" value="*" id="operador"> * </button></td>                       
+                        <td ><button class="btn" value="-" id="operador"> - </button></td>
+                    </tr>
+                    <tr>
+                        <td ><button class="btn" value="7" id="num"> 7 </button></td>
+                        <td ><button class="btn" value="8" id="num"> 8 </button></td>
+                        <td ><button class="btn" value="9" id="num"> 9 </button></td>
+                        <td ><button class="btn" value="+" id="operador"> + </button></td> 
+                    </tr>
+                    <tr>
+                        <td ><button class="btn" value="4" id="num"> 4 </button></td>
+                        <td ><button class="btn" value="5" id="num"> 5 </button></td>
+                        <td ><button class="btn" value="6" id="num"> 6 </button></td>
+                        <td ><button class="btn" value="." id="operador"> . </button></td>
+                    </tr>
+                    <tr>
+                        <td ><button class="btn" value="1" id="num"> 1 </button></td>
+                        <td ><button class="btn" value="2" id="num"> 2 </button></td>
+                        <td ><button class="btn" value="3" id="num"> 3 </button></td>
+                        <td rowspan="2" style="border-radius: 50px;"><button class="btnIgual" value="=" id="operador"> = </button></td>
+                    </tr>
+                        
+                    <tr>
+                        <td colspan="2" style="border-radius: 50px; text-align: center;"><button class="btnIgual" value="0" id="num"> 0 </button></td>
+                        <td ><button class="btn" value="," id="num"> , </button></td>
+                    </tr>
+                </table> 
+
+            </section>  
+
+        </section>
+
+    </div>
+
+    <footer class="rodape">By: Joelson Fernandes</footer>
+
+    <script src="calculadora.js"> </script>
+
+</body>
+</html>
